@@ -1,28 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Counter App | BE QuickStudy</title>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Word Counter App</title>
-</head>
-
-<body>
+  <body>
     <div class="container">
-        <h3>Word Counter App</h3>
-        <textarea placeholder="Enter Text"></textarea>
-        <div class="output row">
-            <div>Words: <span id="wordCount">0</span>
-            </div>
-            <div>Characters: <span id="characterCount">0</span></div>
-            <div>Sentences: <span id="sentenceCount">0</span></div>
-            <div>Paragraphs: <span id="paragraphCount">0</span></div>
+      <h3>Counter App</h3>
+      <div class="output row">
+        <div>
+          Words: <span id="wordCount">0</span> | Characters:
+          <span id="characterCount">0</span> | Sentences:<span
+            id="sentenceCount"
+            >0</span
+          >
+          | Paragraphs:<span id="paragraphCount">0</span>
         </div>
+      </div>
+      <textarea placeholder="Enter Text"></textarea>
     </div>
 
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
