@@ -40,7 +40,7 @@ textarea:hover {
 }
 
 textarea:focus {
-  border-color: #10c428;
+  border-color: #ff0000;
 }
 
 .output.row {
